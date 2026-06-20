@@ -1,0 +1,711 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_verified_date": "June 2026",
+    "primary_sources": [
+      "California Civil Code Sections 789.3, 1161-1179a, 1940.2, 1942.5, 1946, 1946.1, 1946.2, 1951.3",
+      "California Code of Civil Procedure Sections 1161-1179a, 715.010",
+      "California Courts Self-Help Center: courts.ca.gov/selfhelp-eviction",
+      "California Tenant Protection Act of 2019 (AB 1482) — Civil Code 1946.2",
+      "LawHelpCA.org Tenant Rights Section"
+    ],
+    "scope": "California only",
+    "disclaimer": "This file contains legal information for educational purposes only. It is not legal advice. California law changes. Always verify current rules with a licensed California attorney or legal aid organization before making any housing decision."
+  },
+  "notice_types": [
+    {
+      "id": "NT001",
+      "legal_name": "Three-Day Notice to Pay Rent or Quit",
+      "plain_language_name": "Pay rent or leave notice",
+      "short_label": "3-Day Pay or Quit",
+      "legal_authority": {
+        "california_civil_code": [
+          "1161(2) — defines grounds for unlawful detainer including nonpayment of rent [VERIFY: confirm exact subdivision number — Civil Code 1161 lists multiple grounds; subdivision 2 is commonly cited for nonpayment but verify against current statutory text]"
+        ],
+        "california_code_of_civil_procedure": [
+          "1161 — unlawful detainer statute general provisions",
+          "1167 — tenant's time to respond to UD summons [VERIFY: confirm 5-day period and whether calendar or business days under CCP 1167 as currently written]",
+          "1170 — court hearing timing for UD proceedings [VERIFY: confirm minimum days to hearing under CCP 1170 and 1170.5]",
+          "1174 — judgment and execution in UD proceedings",
+          "715.010 — Writ of Possession and sheriff notice period [VERIFY: confirm this is the correct section governing the 5-day notice before sheriff lockout]"
+        ],
+        "additional_statutes": [
+          "AB 1482 (Civil Code 1946.2) — just-cause eviction protections. Note: AB 1482 does NOT prevent eviction for nonpayment of rent but may affect procedural requirements for covered properties. [VERIFY current AB 1482 applicability rules]"
+        ]
+      },
+      "what_it_means_plain_language": "Your landlord is saying you owe rent and must either pay the full amount listed on the notice within 3 days or move out. This is NOT a court order. It is the first step in a process that could lead to court — but only if you do nothing. You have not lost your home.",
+      "does_tenant_have_to_leave": false,
+      "payment_option_exists": true,
+      "cure_option_exists": true,
+      "urgency_level": "HIGH",
+      "timeline": {
+        "notice_period_days": 3,
+        "notice_period_excludes": "Weekends (Saturday and Sunday) and California court holidays. Day 1 is the day AFTER the notice was properly served. [VERIFY: confirm that California courts exclude weekends and court holidays from the 3-day notice period under Civil Code 1161 — this is the standard interpretation but verify against current case law]",
+        "phase_1_notice_period": "3 business days from the date notice is properly served. Day 1 is the day AFTER service. If you received the notice Tuesday evening, Day 1 is Wednesday. Count 3 business days forward — excluding Saturday, Sunday, and court holidays.",
+        "phase_2_ud_filing": "After the 3-day period expires with no payment and no vacation, the landlord MAY file an Unlawful Detainer lawsuit in Superior Court. The landlord is not required to file immediately and may delay.",
+        "phase_3_summons_service": "After a UD is filed, a court summons must be served on the tenant. The tenant then has a limited window to file a written response (Answer) with the court. [VERIFY: CCP 1167 — confirm whether the response period is 5 calendar days or 5 business days as currently written]",
+        "phase_4_court_hearing": "If the tenant files a written Answer, the court schedules a hearing. Under CCP 1170, the hearing must be set within a specified window after the UD is filed. [VERIFY: confirm exact minimum and maximum number of days to hearing under CCP 1170 and 1170.5 as currently in effect]",
+        "phase_5_writ_of_possession": "If the landlord wins at trial or gets a default judgment, the court issues a judgment. The landlord then applies for a Writ of Possession. The sheriff serves a notice to vacate — typically 5 days — before executing the lockout. [VERIFY: CCP 715.010 — confirm the 5-day notice period before sheriff lockout; confirm whether this is calendar or business days]",
+        "after_notice_expires_landlord_can": "File an Unlawful Detainer lawsuit in Superior Court. The landlord CANNOT physically remove the tenant, change locks, or cut off utilities at this stage.",
+        "minimum_days_to_court_hearing_after_filing": 20,
+        "total_minimum_days_from_notice_to_lockout": 28,
+        "total_minimum_days_note": "28 days is the absolute fastest theoretical timeline (3-day notice + UD filing + service + hearing + writ + 5-day sheriff notice). In practice, court backlogs make the actual timeline 45 to 90 days or longer. [VERIFY against current Fresno Superior Court scheduling for UD cases in 2026]"
+      },
+      "what_tenant_can_do": [
+        {
+          "option": 1,
+          "action": "Pay the full amount owed within the 3-day period",
+          "explanation": "If you pay everything listed on the notice in full before the 3 days expire, the landlord must accept it and the eviction process stops. Get written proof of payment immediately — a signed receipt, a bank transfer confirmation, or a text confirmation from your landlord.",
+          "priority": "FIRST CHOICE if funds are available"
+        },
+        {
+          "option": 2,
+          "action": "Negotiate a payment plan with your landlord",
+          "explanation": "You can ask your landlord to accept a partial payment or a payment over time. Important: this does NOT pause the 3-day clock unless the landlord agrees IN WRITING to pause the eviction process. A verbal agreement may not protect you legally.",
+          "priority": "Attempt this while also pursuing other options in parallel"
+        },
+        {
+          "option": 3,
+          "action": "Apply for emergency rental assistance",
+          "explanation": "California and many counties have emergency rental assistance programs. Visit HousingIsKey.com or call 211 and ask about rental assistance in your county. Apply as soon as possible — some programs, when an application is pending, may affect the UD timeline. [VERIFY: SB 91 protections have expired — check current 2026 California legislation for any active ERAP-linked eviction protections. Confirm whether any current California law pauses UD proceedings during active ERAP applications]",
+          "priority": "Apply immediately — processing takes time and may not pause the clock without specific legal protections"
+        },
+        {
+          "option": 4,
+          "action": "Raise affirmative defenses at an Unlawful Detainer hearing",
+          "explanation": "If the case goes to court, you may raise legal defenses including: the notice was not properly served; the rent amount on the notice is incorrect; the landlord failed to maintain the property in habitable condition (habitability defense); the landlord is evicting you in retaliation for complaining about conditions; or the landlord accepted payment after sending the notice. A tenant rights attorney or legal aid organization can help you evaluate which defenses apply.",
+          "priority": "Consult legal aid to understand your specific defenses before the court date"
+        },
+        {
+          "option": 5,
+          "action": "Request a stay or continuance from the court",
+          "explanation": "Once a case is in court, you may ask a judge for more time. Judges grant these on limited grounds. Legal representation greatly increases your chances of obtaining a continuance.",
+          "priority": "Only applicable once court papers have been filed"
+        }
+      ],
+      "what_tenant_must_do_in_24_hours": [
+        "Count the 3 days correctly: Day 1 is the day AFTER you received the notice. Weekends and California court holidays do NOT count. If you received the notice Tuesday night, Day 1 is Wednesday — so your deadline may be Monday or later, NOT Friday.",
+        "Find out the exact amount stated on the notice and compare it to your own records. An incorrect amount on the notice may be a legal defect.",
+        "Call Fresno County legal aid — Central California Legal Services — when they open: 559-570-1200 [VERIFY]. Explain you received a 3-Day Notice to Pay Rent or Quit. Ask about emergency rental assistance and your options."
+      ],
+      "what_tenant_must_do_before_notice_expires": [
+        "If you can pay: pay the full amount AND get written proof — a receipt, a bank transfer record, or a text confirmation from your landlord.",
+        "If you cannot pay in full: contact a rental assistance program AND contact legal aid on the same day. Do both simultaneously.",
+        "Do NOT move out and do NOT tell your landlord you are leaving unless you have decided and confirmed that leaving is your best option. Telling your landlord 'I'll be out Friday' may be treated as a voluntary surrender of your tenancy — even if you have the legal right to stay."
+      ],
+      "what_tenant_must_do_if_court_papers_filed": [
+        "You have a limited number of days from the date you received the court summons to file a written response (an 'Answer') with the court. [VERIFY: CCP 1167 — confirm the exact number of days and whether calendar or business days apply]",
+        "Missing this deadline means the landlord can get a default judgment against you — you lose automatically without a hearing.",
+        "File your Answer at the Fresno Superior Court. Fee waiver forms (FW-001) are available at no cost if you cannot afford the filing fee. [VERIFY current fee waiver form number and process at fresno.courts.ca.gov]",
+        "Attend the court hearing with all documents: the notice, your lease, rent payment records, and any communications with your landlord including threatening messages."
+      ],
+      "bold_statement_card": "This notice is NOT an order to leave. You have rights — and time — right now.",
+      "common_trigger_phrases": [
+        "three day notice",
+        "3 day notice",
+        "notice to pay rent or quit",
+        "paper on my door about rent",
+        "notice saying i have to pay or leave",
+        "eviction notice for not paying rent",
+        "landlord says i have three days",
+        "notice to pay or vacate",
+        "three days to pay my rent",
+        "three day pay or quit",
+        "notice taped to my door",
+        "notice about back rent",
+        "landlord left a paper about rent",
+        "pay rent or get out notice",
+        "notice saying i owe rent",
+        "my landlord says i have to leave in three days",
+        "past due rent notice",
+        "i got an eviction notice",
+        "three days to pay",
+        "notice says pay or leave by friday",
+        "notice about money i owe",
+        "landlord says pay up or move out"
+      ],
+      "ai_identification_signals": [
+        "three days AND pay AND rent",
+        "pay or quit",
+        "pay rent or leave",
+        "notice AND rent AND days",
+        "past due rent",
+        "amount owed",
+        "back rent",
+        "unpaid rent",
+        "three-day notice",
+        "paper about rent",
+        "rent balance",
+        "short on rent"
+      ],
+      "local_ordinance_flag": true,
+      "local_ordinance_note": "If you live in a city with local rent control or just-cause eviction protections (such as Los Angeles, San Francisco, Oakland, or San Jose), you may have additional rights beyond California state law. Fresno does not currently have a local rent control ordinance or just-cause ordinance beyond state law [VERIFY: Check current Fresno Municipal Code sections and any 2024-2026 Fresno City Council actions on tenant protections]. See the city_ordinance_flags section of this file for city-specific details."
+    },
+    {
+      "id": "NT002",
+      "legal_name": "Three-Day Notice to Quit (No Opportunity to Cure)",
+      "plain_language_name": "Leave now notice — no option to fix or pay",
+      "short_label": "3-Day Quit (Unconditional)",
+      "legal_authority": {
+        "california_civil_code": [
+          "1161(3) and 1161(4) — covers certain lease violations including nuisance, illegal use, and subletting without permission where the landlord is not required to give the tenant an opportunity to fix the problem [VERIFY: confirm which subdivisions of Civil Code 1161 apply to unconditional quit notices and which violations permit no-cure notices]"
+        ],
+        "california_code_of_civil_procedure": ["1161", "1167"],
+        "additional_statutes": [
+          "Civil Code 1946.2 (AB 1482) — covered properties may have additional requirements regarding the type and basis of quit notices [VERIFY: confirm AB 1482 restrictions on no-cure quit notice types for covered properties]"
+        ]
+      },
+      "what_it_means_plain_language": "Your landlord is saying you must leave within 3 days. Unlike a pay-or-quit notice, there is no option to fix the problem or make a payment to stop the process. This notice is typically used for serious lease violations — such as using the property for illegal activity, committing waste or nuisance, or subletting without permission — where the landlord claims the violation cannot or should not be fixed.",
+      "does_tenant_have_to_leave": false,
+      "payment_option_exists": false,
+      "cure_option_exists": false,
+      "urgency_level": "CRITICAL",
+      "timeline": {
+        "notice_period_days": 3,
+        "notice_period_excludes": "Weekends and California court holidays",
+        "after_notice_expires_landlord_can": "File an Unlawful Detainer lawsuit in Superior Court. The tenant still cannot be physically removed without a full court order and Writ of Possession.",
+        "minimum_days_to_court_hearing_after_filing": 20,
+        "total_minimum_days_from_notice_to_lockout": 28,
+        "total_minimum_days_note": "Even with this more serious notice, the landlord must still go through the full court process. No immediate physical removal is permitted. [VERIFY UD timelines under current CCP provisions]"
+      },
+      "what_tenant_can_do": [
+        "Contact a tenant rights attorney or legal aid organization IMMEDIATELY — this is the most serious type of 3-day notice because there is no built-in opportunity to fix anything",
+        "Review whether the notice was properly served — procedural defects in service can be a valid defense",
+        "Determine whether the violation described in the notice is accurately stated — factual disputes are defenses",
+        "Ask a legal aid attorney whether an unconditional quit notice is appropriate for the violation described — some violations legally require a Cure-or-Quit notice instead",
+        "Do NOT vacate until you have consulted with legal aid — you may have defenses you are not aware of"
+      ],
+      "what_tenant_must_do_in_24_hours": [
+        "Call legal aid today — the lack of any cure option makes legal help more urgent than with other notice types",
+        "Do NOT move out without first understanding your rights — you may have valid defenses",
+        "Photograph the notice, note the exact date and time it was received, and preserve all communications with your landlord"
+      ],
+      "what_tenant_must_do_before_notice_expires": [
+        "Consult with a tenant rights attorney or legal aid organization to evaluate your defenses",
+        "Gather all documents: your lease, payment history, any prior written communications with your landlord about this issue"
+      ],
+      "what_tenant_must_do_if_court_papers_filed": [
+        "File a written Answer with the court within the deadline after receiving the court summons [VERIFY: CCP 1167 — confirm exact deadline]",
+        "Attend the court hearing — this is your opportunity to present your defenses to a judge"
+      ],
+      "bold_statement_card": "This notice is NOT a court order. You have the right to a court hearing before any eviction can happen.",
+      "common_trigger_phrases": [
+        "three day notice to quit",
+        "3 day notice to leave",
+        "no option to fix it",
+        "notice just says leave",
+        "unconditional quit notice",
+        "notice to vacate immediately",
+        "three days to get out no options",
+        "eviction notice no chance to pay",
+        "three day no cure notice",
+        "notice for illegal activity",
+        "notice for subletting"
+      ],
+      "ai_identification_signals": [
+        "three days AND no option to pay",
+        "three days AND just leave",
+        "unconditional quit",
+        "no cure AND quit",
+        "nuisance AND eviction",
+        "illegal use AND notice"
+      ],
+      "local_ordinance_flag": true,
+      "local_ordinance_note": "Cities with stronger just-cause eviction protections may limit when landlords can issue a no-cure quit notice and may require specific documented grounds. Check local ordinances for your city."
+    },
+    {
+      "id": "NT003",
+      "legal_name": "Three-Day Notice to Cure or Quit",
+      "plain_language_name": "Fix the problem or leave notice",
+      "short_label": "3-Day Cure or Quit",
+      "legal_authority": {
+        "california_civil_code": [
+          "1161(3) — lease covenant violation where the tenant is given the opportunity to perform the covenant or quit [VERIFY: confirm this is the correct subdivision of Civil Code 1161 governing cure-or-quit notices for correctable lease violations, as distinguished from unconditional quit notices under 1161(3) or (4)]"
+        ],
+        "california_code_of_civil_procedure": ["1161", "1167"],
+        "additional_statutes": []
+      },
+      "what_it_means_plain_language": "Your landlord is saying you have violated your lease in a way that can be fixed, and you have 3 days to either fix the problem or move out. This is different from a pay-or-quit notice (which is about rent) and from an unconditional quit notice (where there is no option to fix anything). Common violations triggering this notice include unauthorized pets, unauthorized occupants, excessive noise, and specific lease rule violations.",
+      "does_tenant_have_to_leave": false,
+      "payment_option_exists": false,
+      "cure_option_exists": true,
+      "urgency_level": "HIGH",
+      "what_counts_as_curing": "Fixing the exact violation described on the notice. For an unauthorized pet: removing the pet. For an unauthorized occupant: having that person move out. For a noise violation: stopping the described behavior. After curing, notify your landlord IN WRITING that the violation has been fixed and keep a copy.",
+      "timeline": {
+        "notice_period_days": 3,
+        "notice_period_excludes": "Weekends and California court holidays",
+        "after_notice_expires_landlord_can": "File an Unlawful Detainer lawsuit if the violation has not been cured within the notice period",
+        "minimum_days_to_court_hearing_after_filing": 20,
+        "total_minimum_days_from_notice_to_lockout": 28
+      },
+      "what_tenant_can_do": [
+        "Fix the lease violation within the 3-day period and notify your landlord in writing that the violation has been resolved — keep dated proof of everything",
+        "If you dispute that the violation occurred or that it is actually a violation under your lease, consult legal aid before the deadline",
+        "If the landlord has given you an unconditional Three-Day Notice to Quit for a violation that is legally required to allow a cure opportunity, this may be an improper notice — consult legal aid"
+      ],
+      "what_tenant_must_do_in_24_hours": [
+        "Read the notice carefully and identify the exact lease violation the landlord is claiming",
+        "Decide whether you can fix the problem within 3 business days",
+        "If yes, start fixing it immediately and document your actions with photos, texts, or emails"
+      ],
+      "what_tenant_must_do_before_notice_expires": [
+        "Fix the violation AND send written notice to your landlord stating the violation has been cured — date the message",
+        "Keep copies of all written communications and any physical proof of cure (photos before and after, for example)",
+        "If you cannot fix the violation in time, contact legal aid before the deadline expires"
+      ],
+      "what_tenant_must_do_if_court_papers_filed": [
+        "File a written Answer within the deadline after receiving the court summons [VERIFY: CCP 1167]",
+        "Your defense may include demonstrating you cured the violation within the notice period or that the landlord failed to properly serve the notice"
+      ],
+      "bold_statement_card": "You have time to fix this. If you resolve the problem AND notify your landlord in writing, the eviction process may stop.",
+      "common_trigger_phrases": [
+        "three day notice to fix or leave",
+        "lease violation notice",
+        "notice about my cat",
+        "notice about a pet",
+        "notice about an unauthorized roommate",
+        "cure or quit notice",
+        "fix the problem or move out",
+        "three days to fix a lease violation",
+        "unauthorized pet notice",
+        "unauthorized occupant notice",
+        "notice to remove someone",
+        "three days about a noise complaint"
+      ],
+      "ai_identification_signals": [
+        "cure or quit",
+        "fix AND leave",
+        "lease violation AND three days",
+        "unauthorized AND notice",
+        "nuisance AND notice AND fix",
+        "remove AND three days"
+      ],
+      "local_ordinance_flag": true,
+      "local_ordinance_note": "Some cities require landlords to give tenants more than one opportunity to cure violations before initiating eviction. Check local ordinances if you live in a city with strong tenant protection laws."
+    },
+    {
+      "id": "NT004",
+      "legal_name": "30-Day Notice to Vacate",
+      "plain_language_name": "30-day move-out notice",
+      "short_label": "30-Day Notice",
+      "legal_authority": {
+        "california_civil_code": [
+          "1946 — termination of month-to-month tenancy with 30 days written notice for tenants who have lived in the unit less than 1 year [VERIFY: confirm Civil Code 1946 is the current controlling section for 30-day notice to month-to-month tenants of less than 1 year; confirm whether any subsequent amendments have changed this]"
+        ],
+        "california_code_of_civil_procedure": ["1161"],
+        "additional_statutes": [
+          "Civil Code 1946.2 (AB 1482) — Tenant Protection Act of 2019. If the property is covered by AB 1482, the landlord must state a qualifying just cause on the notice even for month-to-month tenancies. [VERIFY: confirm AB 1482 coverage criteria as of 2026 including which properties are exempt]"
+        ]
+      },
+      "what_it_means_plain_language": "Your landlord is telling you that your month-to-month rental agreement will end in 30 days and you must move out. This notice applies when you have lived in the unit for LESS than one year. If you have lived there one year or longer, you are entitled to a 60-day notice instead — and a 30-day notice may be legally defective.",
+      "does_tenant_have_to_leave": false,
+      "payment_option_exists": false,
+      "cure_option_exists": false,
+      "urgency_level": "MEDIUM-HIGH",
+      "ab_1482_note": "If your property is covered by AB 1482, the landlord must have a qualifying 'at-fault' or 'no-fault' just cause to terminate your tenancy. Not all properties are covered. Key AB 1482 exemptions include: single-family homes where the owner gave proper written AB 1482 exemption notice, condos sold separately, owner-occupied buildings with two or fewer units, and units built within the past 15 years. [VERIFY: confirm current AB 1482 exemption categories under Civil Code 1946.2 as of 2026]",
+      "timeline": {
+        "notice_period_days": 30,
+        "after_notice_expires_landlord_can": "File an Unlawful Detainer lawsuit if the tenant has not vacated",
+        "minimum_days_to_court_hearing_after_filing": 20,
+        "total_minimum_days_from_notice_to_lockout": 60
+      },
+      "what_tenant_can_do": [
+        "Verify you have lived there less than 1 year — if you have been there 1 year or more, you are entitled to a 60-day notice and this 30-day notice may be legally defective",
+        "Determine whether AB 1482 applies to your property — if it does, the landlord must have a legally valid just cause stated on the notice",
+        "If AB 1482 applies and no just cause is stated, or the just cause is invalid, consult legal aid about challenging the notice",
+        "If the notice appears to be retaliatory or discriminatory, consult legal aid immediately"
+      ],
+      "what_tenant_must_do_in_24_hours": [
+        "Confirm your exact move-in date — the 1-year threshold is critical to determining whether you were entitled to 60 days instead of 30",
+        "Check whether AB 1482 may apply to your property — call legal aid or use an online rent control lookup tool for your address",
+        "Call legal aid if you have any questions about whether this notice is proper"
+      ],
+      "what_tenant_must_do_before_notice_expires": [
+        "If the notice appears improper (wrong number of days, no just cause when required), consult legal aid and consider whether to dispute it",
+        "If the notice is valid, begin housing search immediately — 30 days moves quickly",
+        "Do not move out before the 30 days are up unless you choose to"
+      ],
+      "what_tenant_must_do_if_court_papers_filed": [
+        "File a written Answer within the court deadline [VERIFY: CCP 1167]",
+        "Defenses may include: you have lived there over 1 year making this the wrong notice type; AB 1482 just cause requirement not met; retaliatory or discriminatory eviction"
+      ],
+      "bold_statement_card": "A 30-day notice is not immediate. You have 30 days — and if you have lived here a year or more, you may be entitled to more time.",
+      "common_trigger_phrases": [
+        "30 day notice",
+        "thirty day notice",
+        "notice to move out in 30 days",
+        "notice ending my rental agreement",
+        "landlord ending my month to month",
+        "termination of tenancy notice",
+        "move out notice 30 days",
+        "landlord wants me to leave in a month",
+        "one month notice to leave"
+      ],
+      "ai_identification_signals": [
+        "30 days AND move out",
+        "thirty days AND vacate",
+        "month-to-month AND terminate",
+        "end tenancy AND 30",
+        "less than one year AND notice"
+      ],
+      "local_ordinance_flag": true,
+      "local_ordinance_note": "Many California cities with rent control or just-cause eviction ordinances — including Los Angeles, San Francisco, Oakland, and San Jose — provide protections beyond California state law. In these cities, landlords may need a specific qualifying reason to terminate a month-to-month tenancy even after only 30 days. Check local rules for your city."
+    },
+    {
+      "id": "NT005",
+      "legal_name": "60-Day Notice to Vacate",
+      "plain_language_name": "60-day move-out notice",
+      "short_label": "60-Day Notice",
+      "legal_authority": {
+        "california_civil_code": [
+          "1946.1 — requires 60 days written notice to terminate a month-to-month tenancy when the tenant has lived in the unit for 1 year or more [VERIFY: confirm Civil Code 1946.1 currently requires a 60-day notice for tenants of 1 year or more, and verify the exact 1-year calculation method]"
+        ],
+        "california_code_of_civil_procedure": ["1161"],
+        "additional_statutes": [
+          "Civil Code 1946.2 (AB 1482) — just cause eviction requirements apply to covered properties. For no-fault just causes (owner move-in, substantial remodel, demolition), the landlord must pay relocation assistance equal to one month's rent. [VERIFY current relocation assistance requirements under Civil Code 1946.2 as of 2026 — amounts or requirements may have changed]"
+        ]
+      },
+      "what_it_means_plain_language": "Your landlord is giving you 60 days to move out. California law requires a 60-day notice — instead of 30 days — if you have lived in the same place for one year or longer. This is typically a no-fault notice, meaning you are not being removed for something you did wrong. If your property is covered by AB 1482, the landlord must have a qualifying just cause to end your tenancy and may owe you relocation assistance.",
+      "does_tenant_have_to_leave": false,
+      "payment_option_exists": false,
+      "cure_option_exists": false,
+      "urgency_level": "MEDIUM",
+      "ab_1482_note": "For properties covered by AB 1482: no-fault just causes include owner move-in, withdrawal from the rental market, substantial remodel, and demolition. For each no-fault termination, the landlord is required to provide relocation assistance equal to one month's rent [VERIFY current amount and delivery requirements under Civil Code 1946.2]. The notice must state the just cause. If no just cause is stated on a 60-day notice for a covered property, the notice may be legally defective.",
+      "timeline": {
+        "notice_period_days": 60,
+        "after_notice_expires_landlord_can": "File an Unlawful Detainer lawsuit if tenant has not vacated",
+        "minimum_days_to_court_hearing_after_filing": 20,
+        "total_minimum_days_from_notice_to_lockout": 90
+      },
+      "what_tenant_can_do": [
+        "Verify you have lived there 1 year or more — if yes, you are legally entitled to a 60-day notice",
+        "Check whether AB 1482 applies to your property — if it does, the landlord must state a valid just cause on the notice",
+        "If AB 1482 applies and the reason is no-fault, confirm the landlord is providing required relocation assistance",
+        "Check your city's local ordinances — your city may provide stronger protections than state law",
+        "If the notice appears retaliatory or lacks the required just cause, consult legal aid"
+      ],
+      "what_tenant_must_do_in_24_hours": [
+        "Determine whether AB 1482 applies to your property — call legal aid or use a rent control lookup tool for your address",
+        "Note the just cause (reason) stated on the notice — AB 1482 requires the reason to be stated on the notice itself",
+        "Check whether your city has local just-cause eviction protections that may provide additional rights"
+      ],
+      "what_tenant_must_do_before_notice_expires": [
+        "If relocation assistance is owed under AB 1482 or local ordinance, request it in writing and document that request",
+        "If the notice appears improper, consult legal aid and consider whether to dispute it",
+        "If the notice is valid, make a housing plan — 60 days provides more runway but passes quickly for families"
+      ],
+      "what_tenant_must_do_if_court_papers_filed": [
+        "File a written Answer within the court deadline [VERIFY: CCP 1167]",
+        "Defenses may include: AB 1482 just cause not stated or not valid, relocation assistance not paid, retaliatory eviction, discriminatory eviction"
+      ],
+      "bold_statement_card": "You have 60 days — not 60 hours. And California law may entitle you to relocation assistance and additional protections.",
+      "common_trigger_phrases": [
+        "60 day notice",
+        "sixty day notice",
+        "notice to move out in 60 days",
+        "two month notice",
+        "no fault eviction notice",
+        "owner wants to move in",
+        "landlord wants the unit back",
+        "60 days to vacate",
+        "move out in two months",
+        "landlord needs the place back"
+      ],
+      "ai_identification_signals": [
+        "60 days AND move out",
+        "sixty days AND vacate",
+        "no fault AND notice",
+        "owner move-in AND notice",
+        "two months AND leave",
+        "lived there AND years AND notice"
+      ],
+      "local_ordinance_flag": true,
+      "local_ordinance_note": "Cities with rent control ordinances may require additional procedural steps, higher relocation assistance amounts, or additional just-cause requirements beyond state law. Los Angeles, San Francisco, Oakland, and San Jose all have local rules that may give tenants more rights than the 60-day state minimum."
+    },
+    {
+      "id": "NT006",
+      "legal_name": "90-Day Notice to Vacate (Section 8 and HUD-Subsidized Housing)",
+      "plain_language_name": "90-day notice for subsidized housing",
+      "short_label": "90-Day HUD/Section 8 Notice",
+      "legal_authority": {
+        "california_civil_code": [
+          "[VERIFY: identify the specific California Civil Code provision, if any, requiring 90-day notice for subsidized housing terminations — this protection may exist primarily in federal regulations rather than state statute]"
+        ],
+        "california_code_of_civil_procedure": ["1161"],
+        "additional_statutes": [
+          "42 U.S.C. § 1437f — federal Housing Choice Voucher program statute [VERIFY applicable HUD regulation requiring 90-day notice for specific program types]",
+          "24 CFR § 982.310 — HUD regulations governing Housing Choice Voucher tenancy terminations [VERIFY whether 90-day notice requirement applies to HCV program terminations and under what circumstances]",
+          "[VERIFY: check applicable HUD program handbooks for PBRA, PHA, LIHTC, and other program types that may each have different notice requirements]"
+        ]
+      },
+      "what_it_means_plain_language": "If you live in Section 8 (Housing Choice Voucher) subsidized housing or another HUD-subsidized housing program, you may be entitled to a 90-day notice before eviction in certain circumstances. The specific notice requirements depend on which type of subsidized housing program covers your unit. Subsidized housing evictions have additional procedural protections — federal and state — beyond standard California eviction law.",
+      "does_tenant_have_to_leave": false,
+      "payment_option_exists": false,
+      "cure_option_exists": false,
+      "urgency_level": "MEDIUM",
+      "timeline": {
+        "notice_period_days": 90,
+        "notice_period_note": "[VERIFY: 90-day notice requirement depends on the specific HUD program, the type of housing, and the reason for termination. Requirements vary significantly across Public Housing, Project-Based Section 8, Housing Choice Vouchers, LIHTC, and other programs]",
+        "after_notice_expires_landlord_can": "Pursue eviction through court if the tenant has not vacated",
+        "minimum_days_to_court_hearing_after_filing": 20
+      },
+      "what_tenant_can_do": [
+        "Confirm which specific housing subsidy program covers your unit — the rights and notice requirements differ by program type",
+        "Contact your local housing authority or Public Housing Agency (PHA) IMMEDIATELY — subsidized housing terminations have additional administrative appeal processes",
+        "Contact legal aid specializing in subsidized housing — this is a complex area of overlapping federal and state law",
+        "Ask about your right to an informal or formal hearing with the housing authority before any eviction proceeds [VERIFY this right under HUD regulations for your specific program type]",
+        "Request the specific reason for termination in writing"
+      ],
+      "what_tenant_must_do_in_24_hours": [
+        "Identify your specific housing program and contact the housing authority listed on your lease or subsidy documentation",
+        "Call legal aid specializing in subsidized housing today — subsidized housing evictions are procedurally complex"
+      ],
+      "what_tenant_must_do_before_notice_expires": [
+        "Exercise any administrative appeal rights with the housing authority within the deadlines specified in the notice",
+        "Consult with legal aid specializing in subsidized or affordable housing"
+      ],
+      "what_tenant_must_do_if_court_papers_filed": [
+        "File a written Answer within the court deadline [VERIFY: CCP 1167]",
+        "Federal and state procedural violations in subsidized housing cases can be strong defenses — legal representation is critical"
+      ],
+      "bold_statement_card": "Subsidized housing evictions have special rules. You may have more rights and more time than you think — including the right to appeal.",
+      "common_trigger_phrases": [
+        "section 8 eviction",
+        "housing authority notice",
+        "HUD housing notice",
+        "voucher eviction",
+        "public housing notice",
+        "subsidized housing eviction",
+        "90 day notice",
+        "ninety day notice",
+        "housing authority wants me to leave"
+      ],
+      "ai_identification_signals": [
+        "section 8",
+        "HUD",
+        "housing authority",
+        "voucher",
+        "public housing",
+        "subsidized",
+        "90 days AND notice",
+        "affordable housing AND eviction"
+      ],
+      "local_ordinance_flag": false,
+      "local_ordinance_note": "Federal regulations governing subsidized housing programs interact with California state law in complex ways. Consult a legal aid attorney who specializes in subsidized housing. Contact your local housing authority's tenant assistance office as well."
+    },
+    {
+      "id": "NT007",
+      "legal_name": "Notice of Belief of Abandonment",
+      "plain_language_name": "Notice saying your landlord thinks you already moved out",
+      "short_label": "Abandonment Notice",
+      "legal_authority": {
+        "california_civil_code": [
+          "1951.3 — governs the process by which a landlord who believes a tenant has abandoned the rental unit may serve notice and reclaim possession if the tenant does not respond within the statutory period [VERIFY: confirm Civil Code 1951.3 specifies the exact response period — some sources say 15 days, others say 18 days; verify the current statutory text]"
+        ],
+        "california_code_of_civil_procedure": [],
+        "additional_statutes": []
+      },
+      "what_it_means_plain_language": "THIS IS NOT AN EVICTION NOTICE. A Notice of Belief of Abandonment means your landlord believes you have already moved out of your home — not that they are starting an eviction process. If you are still living in your unit, you MUST respond in writing within the time period stated on the notice. If you do nothing, the landlord may legally take possession of your unit without going to court.",
+      "does_tenant_have_to_leave": false,
+      "payment_option_exists": false,
+      "cure_option_exists": false,
+      "urgency_level": "CRITICAL",
+      "is_eviction_notice": false,
+      "critical_warning": "IMPORTANT DISTINCTION: This document is often misunderstood. If you receive this notice and you ARE still living in your unit, you must respond in writing immediately within the statutory deadline. Failure to respond may allow your landlord to legally retake possession without going through the normal eviction court process.",
+      "timeline": {
+        "response_period_days": "15 to 18 [VERIFY: confirm exact number of days under Civil Code 1951.3 — statutory text must be checked against current law]",
+        "after_response_period_if_no_response": "Landlord may treat the unit as abandoned and take possession without filing an Unlawful Detainer lawsuit [VERIFY this consequence under current Civil Code 1951.3]",
+        "court_required_if_tenant_responds": "If the tenant properly responds stating they have not abandoned the unit, the landlord must pursue the standard eviction process through the courts"
+      },
+      "what_tenant_can_do": [
+        "If you are still living in the unit: respond IN WRITING immediately — your written response must state clearly that you have NOT abandoned the property and that you intend to remain a tenant",
+        "Send your written response by certified mail AND also by text message or email to create an immediate digital record with a timestamp",
+        "Contact legal aid immediately — this notice type requires prompt action and is frequently misunderstood"
+      ],
+      "what_tenant_must_do_in_24_hours": [
+        "Write a response letter TODAY stating: 'I have NOT abandoned this property. I am currently living at [your address] and I intend to remain a tenant.'",
+        "Send this response by certified mail to the address listed on the notice — keep the certified mail receipt",
+        "Send a copy by text message or email so there is an immediate dated digital record before the certified mail arrives",
+        "Call legal aid to explain the situation"
+      ],
+      "what_tenant_must_do_before_notice_expires": [
+        "Ensure your written response has been sent before the deadline stated on the notice",
+        "Keep copies of everything: the notice, your response letter, the certified mail receipt, and any digital confirmations"
+      ],
+      "what_tenant_must_do_if_court_papers_filed": [
+        "If your landlord took possession of the unit despite your timely written response, this may constitute an illegal lockout — contact legal aid immediately and call the police non-emergency line",
+        "Civil Code 1951.3 defines the process; a landlord who improperly uses this process after a proper tenant response may face legal liability [VERIFY tenant remedies under Civil Code 1951.3 for improper use of abandonment process]"
+      ],
+      "bold_statement_card": "This is NOT an eviction notice. But if you are still home and do nothing, you could lose your right to stay. Respond in writing TODAY.",
+      "common_trigger_phrases": [
+        "abandonment notice",
+        "notice saying i moved out",
+        "landlord thinks i left",
+        "notice about abandonment",
+        "landlord says i abandoned",
+        "belief of abandonment notice",
+        "notice saying unit is empty",
+        "notice i was in the hospital",
+        "landlord thinks i am gone",
+        "notice no one is home"
+      ],
+      "ai_identification_signals": [
+        "abandonment",
+        "believes you moved out",
+        "believes you have left",
+        "no longer occupying",
+        "vacated without notice",
+        "abandoned the property",
+        "landlord thinks unit is empty"
+      ],
+      "local_ordinance_flag": false,
+      "local_ordinance_note": "The notice of belief of abandonment procedure is governed primarily by California state law (Civil Code 1951.3). Some local ordinances may provide additional tenant protections [VERIFY local rules if applicable]."
+    },
+    {
+      "id": "NT008",
+      "legal_name": "Unlawful Detainer Summons (Court Case Already Filed)",
+      "plain_language_name": "Court papers — your landlord has already sued you in court",
+      "short_label": "UD Court Summons",
+      "legal_authority": {
+        "california_civil_code": ["1161 et seq."],
+        "california_code_of_civil_procedure": [
+          "1167 — time for tenant to respond to UD summons [VERIFY: confirm 5-day response period is current and whether calendar or business days]",
+          "1170 — UD court hearing scheduling [VERIFY]",
+          "1174 — judgment and remedies in UD proceedings",
+          "715.010 — Writ of Possession and pre-lockout notice period [VERIFY]"
+        ],
+        "additional_statutes": [
+          "California Rules of Court — rules governing UD proceedings [VERIFY applicable rules for self-represented litigants]"
+        ]
+      },
+      "what_it_means_plain_language": "Your landlord has already filed a lawsuit against you in Superior Court. The time to respond to any earlier eviction notice has already passed. These are OFFICIAL COURT PAPERS. You now have a very limited time — typically 5 days — to file a written response with the court or you will automatically lose the case without any hearing. This is a housing emergency requiring immediate action.",
+      "does_tenant_have_to_leave": false,
+      "payment_option_exists": false,
+      "cure_option_exists": false,
+      "urgency_level": "EMERGENCY",
+      "timeline": {
+        "response_deadline_days": 5,
+        "response_deadline_note": "[VERIFY: CCP 1167 — confirm whether the 5-day UD response period is calendar days or business days, and whether weekends and holidays are excluded. This is a critical legal detail that affects the actual deadline.]",
+        "if_no_response_filed": "Landlord can request a default judgment — the court rules in the landlord's favor automatically without a hearing. The tenant loses the case without presenting any defense.",
+        "if_response_filed": "Court schedules a hearing, typically within approximately 20 days of the UD being filed [VERIFY under CCP 1170 and 1170.5]",
+        "after_judgment_if_tenant_loses": "Landlord requests Writ of Possession. Sheriff then serves a notice — typically 5 days — before the lockout is executed. [VERIFY CCP 715.010]"
+      },
+      "what_tenant_can_do": [
+        "File a written 'Answer' with the court within 5 days of receiving the summons [VERIFY exact deadline under CCP 1167]",
+        "Request a court fee waiver (form FW-001) at the court clerk's window if you cannot afford the filing fee [VERIFY current form number]",
+        "Call legal aid TODAY — some organizations have emergency Unlawful Detainer response clinics specifically for tenants who have received court summons",
+        "If a hearing is scheduled, attend the hearing and bring all relevant documents",
+        "Ask the court clerk about mediation services that may be available in your county for UD cases [VERIFY availability of UD mediation in your county court]"
+      ],
+      "what_tenant_must_do_in_24_hours": [
+        "Call legal aid TODAY — explain you received a court summons in an eviction case and ask about the 5-day response deadline",
+        "Find form UD-105 (Unlawful Detainer Answer) on the California Courts website at courts.ca.gov/forms [VERIFY current form number and URL]",
+        "Identify the court listed on the summons — that is where you must file your Answer"
+      ],
+      "what_tenant_must_do_before_notice_expires": [
+        "FILE YOUR ANSWER WITHIN 5 DAYS OF RECEIVING THE SUMMONS — missing this deadline means automatic loss [VERIFY exact deadline under CCP 1167]",
+        "After filing, get a file-stamped copy of your Answer from the clerk and keep it",
+        "Note any court date listed on the summons and confirm attendance"
+      ],
+      "what_tenant_must_do_if_court_papers_filed": [
+        "You are already at this stage — all the instructions in the sections above apply",
+        "Attend the court hearing, bring all documents, and present your defenses"
+      ],
+      "bold_statement_card": "Court papers are filed. You have 5 days to respond or you automatically lose. Call legal aid right now.",
+      "common_trigger_phrases": [
+        "court papers",
+        "summons",
+        "unlawful detainer summons",
+        "eviction lawsuit",
+        "served with papers",
+        "sheriff served me papers",
+        "process server came to my door",
+        "i got sued by my landlord",
+        "court notice from my landlord",
+        "five days to respond",
+        "eviction court papers",
+        "UD papers",
+        "got served today"
+      ],
+      "ai_identification_signals": [
+        "summons",
+        "court papers",
+        "unlawful detainer",
+        "filed in court",
+        "served papers",
+        "lawsuit",
+        "5 days AND court",
+        "five days AND respond",
+        "UD AND court"
+      ],
+      "local_ordinance_flag": false,
+      "local_ordinance_note": "Once the case is in court, California Code of Civil Procedure governs the process. However, local tenant protection ordinances may still provide valid defenses to raise in your Answer — for example, failure to comply with local just-cause requirements or local rent control rules."
+    }
+  ],
+  "city_ordinance_flags": {
+    "los_angeles": {
+      "city": "Los Angeles",
+      "ordinance_name": "Los Angeles Rent Stabilization Ordinance (RSO)",
+      "ordinance_code": "Los Angeles Municipal Code (LAMC) Chapter XV [VERIFY current chapter and section numbers — LA ordinances are periodically renumbered]",
+      "coverage": "Generally covers most residential rental units in the City of Los Angeles built on or before October 1, 1978, with some exceptions. Key exemptions include single-family homes, condos, and certain newer buildings. [VERIFY current LA RSO coverage criteria as of 2026 — recent amendments may have expanded or changed coverage]",
+      "key_protections": [
+        "Just cause eviction required for all covered units — landlord must have a valid RSO-approved reason",
+        "Allowable annual rent increase limits for covered units",
+        "Relocation assistance requirements for certain no-fault evictions [VERIFY current relocation assistance amounts under LA RSO in 2026]"
+      ],
+      "where_to_check": "Los Angeles Housing Department (LAHD): housing.lacity.gov [VERIFY current URL]",
+      "phone": "866-557-7368 [VERIFY current LAHD phone number]",
+      "address_lookup": "Use the LAHD online address lookup tool to check whether your specific address is RSO-covered [VERIFY current availability of online RSO lookup tool]"
+    },
+    "san_francisco": {
+      "city": "San Francisco",
+      "ordinance_name": "San Francisco Residential Rent Stabilization and Arbitration Ordinance",
+      "ordinance_code": "San Francisco Administrative Code Chapter 37 [VERIFY current chapter designation]",
+      "coverage": "Most residential rental units in San Francisco are covered, with key exceptions for units built after June 13, 1979, owner-occupied buildings with fewer than two units rented, and certain other categories [VERIFY current SF Rent Ordinance coverage criteria as of 2026]",
+      "key_protections": [
+        "Just cause eviction required for all covered units — 16 allowable just causes are defined",
+        "Rent increase limitations for covered units",
+        "Strong displacement protections",
+        "Relocation assistance for no-fault evictions [VERIFY current SF relocation amounts under Admin Code]"
+      ],
+      "where_to_check": "San Francisco Rent Board: sfrentboard.org [VERIFY current URL]",
+      "phone": "415-252-4602 [VERIFY current SF Rent Board phone number]"
+    },
+    "oakland": {
+      "city": "Oakland",
+      "ordinance_name": "Oakland Just Cause for Eviction Ordinance and Rent Adjustment Program",
+      "ordinance_code": "Oakland Municipal Code Section 8.22.300 et seq. [VERIFY current OMC section numbers — Oakland ordinances have been amended multiple times]",
+      "coverage": "Oakland's just cause ordinance covers a broader set of rental properties than AB 1482, including some newer buildings and single-family homes [VERIFY current Oakland ordinance coverage criteria as of 2026]",
+      "key_protections": [
+        "Just cause eviction required for all covered units",
+        "Rent adjustment petition process for eligible tenants",
+        "Relocation assistance for no-fault evictions",
+        "Anti-harassment protections under Oakland ordinance"
+      ],
+      "where_to_check": "Oakland Rent Adjustment Program: oaklandca.gov/departments/rent-adjustment-program [VERIFY current URL]",
+      "phone": "510-238-3721 [VERIFY current Oakland RAP phone number]"
+    },
+    "san_jose": {
+      "city": "San Jose",
+      "ordinance_name": "San Jose Apartment Rent Ordinance (ARO)",
+      "ordinance_code": "San Jose Municipal Code Section 17.23.010 et seq. [VERIFY current SJMC section numbers]",
+      "coverage": "Generally covers apartment buildings with two or more units built before a specific date [VERIFY current San Jose ARO coverage criteria — coverage has been subject to litigation and amendments as of 2026]",
+      "key_protections": [
+        "Rent increase limitations for covered units",
+        "Just cause eviction protections for covered units [VERIFY whether San Jose has a separate stand-alone just cause ordinance as of 2026 or whether this is integrated into the ARO]"
+      ],
+      "where_to_check": "City of San Jose Housing Department: sanjoseca.gov/your-government/departments/housing [VERIFY current URL]",
+      "phone": "[VERIFY current San Jose ARO office phone number]"
+    },
+    "fresno": {
+      "city": "Fresno",
+      "ordinance_name": "No local rent control or just-cause eviction ordinance currently in effect",
+      "coverage": "Fresno does not currently have a local rent control ordinance or a local just-cause eviction ordinance beyond California state law. [VERIFY: check current Fresno Municipal Code and confirm whether Fresno City Council enacted any new tenant protection ordinances between 2024 and 2026]",
+      "key_note": "Fresno renters are protected by California state law, including AB 1482 (Tenant Protection Act of 2019) if their property qualifies. Fresno does not add extra local protections beyond state law as of this writing. This is particularly relevant for Priya's scenario — her rights are determined by state law, not a stronger local ordinance.",
+      "where_to_check": "Fresno Municipal Code: fresno.legistar.com [VERIFY current URL] | Call Central California Legal Services for guidance on current Fresno-specific rules: 559-570-1200 [VERIFY]"
+    },
+    "all_other_california_cities": {
+      "note": "Your city may have additional tenant protections beyond California state law. Before acting, call 211 (available 24 hours a day, 7 days a week, at no cost) or visit lawhelp.org/ca to check local rules specific to your city and county."
+    }
+  }
+}

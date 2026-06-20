@@ -1,0 +1,58 @@
+LOCKED CONCEPT SUMMARY
+
+(400 words — paste this as context into all future build prompts)
+
+
+EvictAware — California Tenant Rights Navigator
+USAII Global AI Hackathon 2026 | Challenge Brief 4 | Undergraduate Track | Team Vision Forge
+
+
+One-Line Pitch:
+We are building an AI-powered solution that helps a California renter who just received an eviction notice and has no immediate access to legal counsel so they can identify exactly what type of notice they received, understand their legal rights in plain language, and take the right next step in the next 24 hours — without needing a lawyer, a legal dictionary, or a business-hours hotline.
+
+The User:
+Priya Sharma, 29, Fresno, California — part-time medical billing specialist, Uber Eats driver, single mother of a 7-year-old — found a 3-Day Notice to Pay Rent or Quit taped to her door at 9:47 PM on a Tuesday, $340 short on rent. Without EvictAware, she texts her landlord "I'll be out Friday," voluntarily vacating a home she had the legal right to keep.
+
+The Problem:
+California renters receiving eviction notices cannot quickly identify what type of notice they received, what rights still protect them, or what they must do in the next 24–72 hours — causing tens of thousands to self-vacate or miss legal deadlines before ever reaching a courtroom. The decision window is 24–72 hours from receipt; after that, options close permanently.
+
+Why AI:
+
+
+A decision tree for California's 9+ legally distinct notice types would require 200+ branches and cannot process "I got a paper that says three days" — NLP is required
+Rules-based systems retrieve information; only contextual reasoning determines WHICH rights apply to THIS notice type in THIS location with THESE user conditions
+Information without sequence is not actionable under stress — priority generation transforms a set of rights into a time-ordered plan that tells Priya what to do first
+
+
+Three-Stage Architecture:
+Stage 1: NLP reads the user's free-text description, identifies notice type, and presents a mandatory confirmation gate before any action plan renders. Stage 2: Confirmed notice type triggers contextual legal reasoning — California Civil Code and CCP rules plus local ordinance overlays for the user's city. Stage 3: Time-ordered action plan generated in three urgency tiers with Grade 7 language, isolated deadline display, and county-specific legal aid contacts from 211.org public data.
+
+Three Wow Moments:
+
+
+The Bold Statement Card: "This notice is NOT an order to leave" — directly neutralizes the false belief driving catastrophic wrong action
+The "What Your Landlord CANNOT Do Right Now" module: eliminates panic about immediate physical removal with specific legal authority
+The Local Legal Aid Connector: not a directory link — a specific phone number, hours, and intake link for Priya's county, populated from public data
+
+
+Four Responsible AI Elements:
+
+
+State Scope Lock: architectural stop at entry — no California confirmation, no system access
+Confirmation Step: action plan blocked until user confirms AI's notice type classification matches their document
+Mandatory Legal Aid Acknowledgment: user must actively dismiss a limitation statement before any action plan renders
+Language Safety Validation: prohibited certainty phrases screened before output renders; all legal assessments use required uncertainty framing templates
+
+
+Impact in Numbers:
+
+
+California processes 500,000+ unlawful detainer filings annually; 20–35% of renters self-vacate without ever reaching court
+Renters have legal representation in 3–10% of eviction proceedings; landlords in 80–90% — EvictAware narrows the information half of this gap
+
+
+Organization Inspirations:
+
+
+Code for America — EvictAware's free-text single-question entry point is directly inspired by GetCalFresh's design principle: start where the user is, in their own language
+Benefits Data Trust — EvictAware's Local Legal Aid Connector (specific phone number, not a directory link) applies BDT's finding that a direct contact dramatically increases the rate at which people in need actually reach help

@@ -1,0 +1,24 @@
+INTEGRATION SUMMARY
+How the Six Files Connect to Each Other and to Gemini
+Plain-English Architecture (under 100 words):
+When a user opens EvictAware, the Streamlit app loads all five JSON files into memory at startup. When the user types their situation, ai_config.json provides the system prompt and rules that govern every Gemini API call. california_eviction_data.json is injected as structured knowledge so Gemini knows what each notice type means and what actions apply. After the user confirms their notice type and county, legal_aid_contacts.json pulls the specific county contact and landlord_prohibitions.json supplies the prohibition module. synthetic_scenarios.json never loads at runtime — it is development and testing only. human_verification_checklist.md is a team document, not a runtime file.
+One-Sentence Connection Map:
+User types input
+        ↓
+ai_config.json → governs HOW Gemini processes everything (rules, tone, 
+                 prohibited phrases, confirmation gate, hard stops)
+        ↓
+california_eviction_data.json → tells Gemini WHAT each notice type means,
+                                what actions apply, what timelines exist
+        ↓
+legal_aid_contacts.json → tells Gemini WHERE to send the user 
+                          (county-specific contact)
+        ↓
+landlord_prohibitions.json → tells Gemini WHAT the landlord cannot do 
+                             (powers the WOW MOMENT module)
+        ↓
+Gemini returns structured JSON output → Streamlit renders UI components
+
+synthetic_scenarios.json → used only during development testing 
+                           and for pre-computing the demo cache
+human_verification_checklist.md → team document, not loaded by app

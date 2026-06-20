@@ -1,0 +1,145 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "last_verified_date": "June 2026",
+    "purpose": "Powers the 'What Your Landlord CANNOT Do Right Now' module in EvictAware. Each entry must be verified against current California statute before demo.",
+    "scope": "California only",
+    "ai_usage_note": "When displaying these prohibitions, always use uncertainty framing: 'This MAY violate California law' — never 'Your landlord violated the law.' Display the what_to_do_if_landlord_does_this field in the action plan. Always recommend the tenant document everything and contact legal aid.",
+    "disclaimer": "This information describes California law generally. It is not legal advice. Whether a specific action violates the law depends on the facts of each case. A tenant rights attorney can advise on a specific situation."
+  },
+  "prohibitions": [
+    {
+      "id": "proh_001",
+      "prohibited_action": "Changing locks, removing doors, or physically blocking access without a court order",
+      "plain_language_label": "Illegal Lockout",
+      "legal_authority": "California Civil Code Section 789.3 [VERIFY: Confirm exact subsection(s) of CC 789.3 covering illegal lockouts. CC 789.3 covers removal of furnishings, utility shutoffs, and lockouts as self-help eviction remedies — confirm all subsections apply]",
+      "secondary_authority": "This conduct is also referred to as 'self-help eviction' and is universally prohibited under California common law and Civil Code regardless of rent owed.",
+      "plain_language_explanation": "California law makes it illegal for a landlord to change your locks, remove your doors, take away your furniture, or do anything else to physically block you from entering your home — even if you owe rent. The only legal way to remove a tenant from a home in California is to go through the court system and get a Writ of Possession executed by the county sheriff.",
+      "what_this_means_for_priya": "Even though you owe rent and have a 3-day notice, your landlord CANNOT change your locks, remove your door, or block you from entering your apartment tonight, tomorrow, or at any point before a court orders it. If this happens, it is illegal — not just wrong — and you have immediate legal remedies.",
+      "what_to_do_if_landlord_does_this": "1. Call the local police non-emergency line immediately and report an illegal lockout. Police in California generally recognize CC 789.3 lockouts as civil law violations. 2. Document everything: photograph the locks, take a video, note the time. 3. Call your county's legal aid organization first thing in the morning — illegal lockout cases are treated as urgent. 4. You MAY be entitled to statutory damages under California Civil Code Section 789.3 of $100 per day for each day you are locked out, up to $1,000 minimum, plus actual damages and attorney fees [VERIFY: Confirm exact damage amounts under CC 789.3 as currently codified in 2026].",
+      "urgency_level": "EMERGENCY — if this is happening right now, call police immediately",
+      "applies_during": ["notice_period", "after_notice_expires", "during_ud_proceedings", "after_court_judgment_before_writ"],
+      "police_guidance_note": "Some police departments are unfamiliar with California's civil lockout statute. If the officer says it is a civil matter, request that they document the incident anyway, and proceed immediately to legal aid. You may also call the Housing Rights Center or a tenant rights hotline for emergency guidance.",
+      "verify_items": "[VERIFY: (1) Exact subsections of CC 789.3 covering lockouts vs. utilities vs. removal of property — these may be in separate subsections. (2) Confirm statutory damages formula is still $100/day, $1,000 minimum as of 2026. (3) Confirm whether attorney fees provision is in CC 789.3 or a separate section.]"
+    },
+    {
+      "id": "proh_002",
+      "prohibited_action": "Shutting off electricity, gas, water, or internet as a way to force the tenant to leave",
+      "plain_language_label": "Utility Shutoff as Eviction Tactic",
+      "legal_authority": "California Civil Code Section 789.3 [VERIFY: Confirm CC 789.3 covers willful interruption of utility services including gas, electricity, water, and whether it covers internet/communications services as of 2026]",
+      "plain_language_explanation": "Your landlord cannot intentionally cut off your electricity, gas, heat, water, or other utilities to pressure you into leaving. This is true even if you owe rent. The landlord must pay the utility bills to keep your services on while you are a tenant in the unit. Intentionally cutting utilities to force you out is treated by California law the same way as changing your locks — it is a form of illegal self-help eviction.",
+      "what_this_means_for_priya": "If your landlord tries to turn off the heat, electricity, or water in your apartment as a way to pressure you to leave before the legal process plays out, that action may violate California law regardless of whether you owe rent.",
+      "what_to_do_if_landlord_does_this": "1. Document the shutoff: photograph utility meters, note date and time. 2. Check with the utility company directly to confirm whether the shutoff was initiated by the landlord. 3. Call your county's legal aid organization. 4. You MAY be entitled to statutory damages under California Civil Code Section 789.3 — the same damages as an illegal lockout [VERIFY: Confirm utility shutoff damages formula]. 5. For an active utility shutoff threatening health or safety, call 211 for emergency housing resources.",
+      "urgency_level": "HIGH — utility shutoffs affecting heat, water, or safety should be treated as urgent",
+      "applies_during": ["notice_period", "after_notice_expires", "during_ud_proceedings"],
+      "important_distinction": "This prohibition covers a landlord intentionally cutting off services as an eviction tactic. It does not apply if the utility company shuts off service because the tenant's own utility account (not controlled by the landlord) is unpaid. Confirm with your legal aid attorney which situation applies.",
+      "verify_items": "[VERIFY: (1) CC 789.3 subsection for utilities specifically. (2) Whether internet/broadband service is covered as a utility under CC 789.3 as of 2026 — this has been a developing area of law. (3) Confirm damages are same formula as lockout section.]"
+    },
+    {
+      "id": "proh_003",
+      "prohibited_action": "Threatening, harassing, or intimidating the tenant to force them to leave — including threatening texts or phone calls",
+      "plain_language_label": "Harassment and Threatening Communications",
+      "legal_authority": "California Civil Code Section 1940.2 [VERIFY: Confirm CC 1940.2 covers landlord harassment and the specific conduct types listed here — threatening communications, excessive phone calls, intimidation visits]",
+      "plain_language_explanation": "California law prohibits landlords from using threats, force, or repeated harassment to make a tenant leave their home. This includes threatening text messages, repeated intimidating phone calls, showing up at your door to threaten or intimidate you, and making false statements about legal proceedings to frighten you. A landlord who tells a tenant 'the sheriff will remove you Friday' when no court order has been obtained MAY be engaging in conduct that violates California Civil Code Section 1940.2.",
+      "what_this_means_for_priya": "The text message your landlord sent saying 'the sheriff will come Friday' — when no court has ordered anything — is potentially a false and threatening statement about legal proceedings that does not reflect how California eviction law actually works. Document every message your landlord sends you. This documentation could become important if you need to raise harassment or retaliation as a defense.",
+      "what_to_do_if_landlord_does_this": "1. Do NOT delete any texts, voicemails, or emails from your landlord. Screenshot and save everything with dates and times. 2. Do not respond to threatening messages. 3. Keep a written log of any in-person intimidation attempts: date, time, what was said, any witnesses. 4. Tell your legal aid attorney about this conduct — it may strengthen your legal position and could give rise to an independent legal claim. 5. If you feel physically threatened or unsafe, call 911.",
+      "urgency_level": "HIGH",
+      "applies_during": ["notice_period", "after_notice_expires", "during_ud_proceedings"],
+      "specific_example": "Telling a tenant 'the sheriff will be there Friday' before any court order has been obtained is a false statement about the legal process. In California, before a sheriff can remove a tenant, the landlord must: file an unlawful detainer lawsuit, serve the tenant, wait for a hearing, win at trial, obtain a writ of possession, and then wait for the sheriff to schedule the lockout. This process takes weeks at minimum.",
+      "verify_items": "[VERIFY: (1) Confirm CC 1940.2 exact subsections and what conduct is specifically listed as prohibited. (2) Confirm whether CC 1940.2 provides a private right of action for the tenant and what damages are available. (3) Check whether any 2025-2026 California legislation expanded harassment protections for tenants.]"
+    },
+    {
+      "id": "proh_004",
+      "prohibited_action": "Removing or threatening to remove the tenant's personal belongings from the unit",
+      "plain_language_label": "Removal of Tenant's Property",
+      "legal_authority": "California Civil Code Section 789.3 [VERIFY: Confirm CC 789.3 covers removal of furnishings and personal property as an illegal self-help eviction tactic]",
+      "secondary_authority": "After a lawful lockout via Writ of Possession, California Civil Code Section 1965 and CCP Section 1174 govern the landlord's obligations regarding a tenant's abandoned property. [VERIFY: Confirm CCP 1174 and CC 1965 are the correct sections governing post-lockout property handling]",
+      "plain_language_explanation": "Your landlord cannot remove your furniture, clothes, food, or any other belongings from your home — with or without a court order — as a way to force you out. If a landlord removes your property before a legal lockout, they may be liable for damages including the value of the property taken. Even after a legal lockout, the landlord has specific legal obligations about how to handle any property left behind.",
+      "what_this_means_for_priya": "No one can legally remove your belongings from your apartment right now. If anyone touches your property, photograph everything you can.",
+      "what_to_do_if_landlord_does_this": "1. Immediately document what was removed: photos, video, written list with approximate values. 2. Call police if removal is happening in real time — this may constitute theft or trespass. 3. Contact legal aid urgently — property removal claims under CC 789.3 can result in statutory damages plus actual value of property. 4. Keep receipts, photos, or other documentation showing what property you had in the unit.",
+      "urgency_level": "HIGH — if happening in real time, call police",
+      "applies_during": ["notice_period", "after_notice_expires", "during_ud_proceedings"],
+      "verify_items": "[VERIFY: (1) Confirm CC 789.3 subsection for furnishings/personal property removal. (2) Confirm CCP 1174 covers the post-eviction property storage obligation and the specific process a landlord must follow to dispose of abandoned property legally. (3) Confirm whether CC 1965 applies here or a different section.]"
+    },
+    {
+      "id": "proh_005",
+      "prohibited_action": "Physically removing the tenant from their home without a court-issued Writ of Possession executed by the county sheriff",
+      "plain_language_label": "Physical Removal Without Sheriff Writ",
+      "legal_authority": "California Code of Civil Procedure Section 715.010 et seq. (Writ of Possession execution); California Civil Code Section 789.3 (self-help eviction prohibition) [VERIFY: Confirm CCP 715.010 is the correct section governing writ of possession execution in residential evictions, or whether CCP 1174 is the primary section]",
+      "plain_language_explanation": "The ONLY legal way for any person to physically remove a tenant from their California home is for the county sheriff (or marshal) to execute a court-issued Writ of Possession. This requires the landlord to: (1) serve a valid notice, (2) wait for the notice period to expire, (3) file an unlawful detainer lawsuit in court, (4) serve the tenant with the summons, (5) go through a court hearing, (6) win at the hearing and receive a court judgment, (7) apply for a Writ of Possession, (8) wait for the writ to be served on the tenant with a 5-day notice before the sheriff acts. Even after a landlord wins in court, they still cannot personally remove you — only the sheriff with the writ can do that, and you still have 5 days from writ service before the sheriff acts.",
+      "five_day_writ_notice": "After a Writ of Possession is issued and served, the sheriff must give the tenant 5 days before executing the lockout. This 5-day period is a final opportunity to contact legal aid, negotiate, or arrange alternative housing. [VERIFY: Confirm the 5-day notice period before sheriff lockout under California writ of possession procedures — this may be specified in CCP 715.010 or local sheriff policies]",
+      "what_this_means_for_priya": "Right now, today, no one — not your landlord, not a property manager, not anyone your landlord hires — has the legal right to physically remove you from your apartment. That cannot happen without a court order, a court judgment, a writ, and a sheriff. That entire process takes weeks. You do not have to leave tonight.",
+      "what_to_do_if_landlord_does_this": "1. Call 911 immediately — physical removal without a writ is assault and trespass. 2. Do not engage physically. 3. Leave temporarily if you feel unsafe, but document that you did NOT voluntarily vacate — text a friend or family member your situation with a timestamp. 4. Call legal aid first thing in the morning — this is an emergency legal situation. 5. Note the names and contact information of any witnesses.",
+      "urgency_level": "EMERGENCY — call 911 if physical removal is being attempted",
+      "applies_during": ["notice_period", "after_notice_expires", "during_ud_proceedings", "after_court_judgment_before_writ"],
+      "full_legal_process_summary": "The full legal process required before a lawful sheriff lockout: Step 1 — Valid notice served and notice period expires. Step 2 — Landlord files Unlawful Detainer (UD) complaint in Superior Court. Step 3 — Tenant is served with UD summons. Step 4 — Tenant has 5 business days to file a written Answer. Step 5 — Court hearing held (typically within 20 days of UD filing if tenant responds). Step 6 — Court issues judgment for landlord if landlord wins. Step 7 — Landlord applies for Writ of Possession. Step 8 — Writ is served on tenant, triggering a 5-day period. Step 9 — Sheriff executes lockout after 5-day period. TOTAL MINIMUM TIME from notice to lockout: approximately 4 to 8 weeks depending on court scheduling and procedural steps. [VERIFY all timeline steps against current California Courts self-help guidance and CCP sections]",
+      "verify_items": "[VERIFY: (1) Confirm CCP 715.010 et seq. governs residential writ of possession execution, or the correct CCP section. (2) Confirm the 5-day pre-lockout notice period and its statutory basis. (3) Confirm current average UD hearing scheduling timelines in Fresno Superior Court and Los Angeles Superior Court as of 2026 — court backlogs affect real-world timelines.]"
+    },
+    {
+      "id": "proh_006",
+      "prohibited_action": "Evicting a tenant in retaliation for exercising a legal right — such as requesting repairs, complaining to a housing agency, or organizing with other tenants",
+      "plain_language_label": "Retaliatory Eviction",
+      "legal_authority": "California Civil Code Section 1942.5 [VERIFY: Confirm CC 1942.5 is the primary statute governing retaliatory eviction in California and confirm what conduct is specifically listed as protected activity triggering the anti-retaliation provision]",
+      "plain_language_explanation": "California law makes it illegal for a landlord to evict a tenant — or to raise rent, reduce services, or make threats — as retaliation for the tenant doing things like: requesting legally required repairs, complaining to a code enforcement or housing agency, exercising any legal right, or participating in a tenants' association. If a tenant can show that an eviction notice was served within 180 days of a protected act, California law creates a legal presumption of retaliation that the landlord must overcome. [VERIFY: Confirm the 180-day presumption period under CC 1942.5]",
+      "what_this_means_for_priya": "If you recently asked your landlord for repairs, reported your landlord to any government agency, or took any other step to protect your rights, and this notice arrived shortly after that, the timing may be relevant to a retaliation defense. Tell your legal aid attorney about the full history of your relationship with your landlord.",
+      "what_to_do_if_landlord_does_this": "1. Write down the timeline: when did you make any complaints or requests to the landlord, when did you contact any agency, when did the notice arrive. 2. Gather any evidence of prior requests: texts, emails, written repair requests. 3. Tell your legal aid attorney you believe this may be retaliatory — this is a recognized legal defense to an unlawful detainer. 4. A successful retaliation defense can result in the eviction being dismissed and MAY entitle you to damages [VERIFY: Confirm retaliation damages under CC 1942.5].",
+      "urgency_level": "HIGH — retaliation defense must be raised at or before the unlawful detainer hearing",
+      "applies_during": ["notice_period", "after_notice_expires", "during_ud_proceedings"],
+      "180_day_presumption": "Under California Civil Code 1942.5, if a landlord serves an eviction notice or raises rent within 180 days of the tenant exercising a protected right, there is a legal presumption of retaliation. The landlord bears the burden of proving the action was not retaliatory. [VERIFY: Confirm 180-day period and burden-shifting provision in current CC 1942.5 text]",
+      "protected_activities": [
+        "Requesting legally required repairs",
+        "Complaining to a government housing or code enforcement agency",
+        "Contacting a tenant rights organization",
+        "Participating in a tenants association",
+        "Filing a lawsuit against the landlord",
+        "Exercising any right under the lease or California law"
+      ],
+      "verify_items": "[VERIFY: (1) Confirm all elements of CC 1942.5 including the 180-day presumption period. (2) Confirm what damages are available to a tenant who successfully proves retaliatory eviction under CC 1942.5. (3) Confirm whether CC 1942.5 applies to all types of eviction notices or only certain types. (4) Check for any 2025-2026 amendments to CC 1942.5.]"
+    },
+    {
+      "id": "proh_007",
+      "prohibited_action": "Evicting a tenant because of race, color, religion, sex, gender, sexual orientation, marital status, national origin, ancestry, familial status, source of income, disability, or other protected class",
+      "plain_language_label": "Discriminatory Eviction",
+      "legal_authority": "California Fair Employment and Housing Act (FEHA), Government Code Section 12955 et seq. [VERIFY: Confirm Government Code 12955 is the correct citation for FEHA housing discrimination protections and that the protected classes listed here match current California law]; Fair Housing Act (federal, 42 U.S.C. Section 3604) [VERIFY]",
+      "plain_language_explanation": "It is illegal under both California and federal law for a landlord to evict a tenant because of who they are — their race, religion, national origin, gender, sexual orientation, disability, family status (including having children), or source of income (such as a housing voucher/Section 8). If you believe the eviction is connected to any of these characteristics, this may be a discriminatory eviction, which is both a defense to the eviction and grounds for a separate legal claim.",
+      "what_this_means_for_priya": "If you have any reason to believe your landlord is targeting you because of your national origin, religion, family status (having a child), or any other characteristic listed above — and not solely because of the rent owed — tell your legal aid attorney immediately. Discriminatory motivation can change your entire legal situation.",
+      "what_to_do_if_landlord_does_this": "1. Document any statements the landlord made that suggest discriminatory motive — in texts, voicemails, emails, or in person (with witnesses). 2. Note if similarly situated tenants of different backgrounds were treated differently. 3. Contact legal aid immediately — discrimination claims have separate deadlines that may require fast action. 4. File a complaint with the California Civil Rights Department (formerly DFEH) at calcivilrights.ca.gov [VERIFY: Confirm current name and URL for what was previously the Department of Fair Employment and Housing as of 2026]. 5. You may also file with the U.S. Department of Housing and Urban Development (HUD) at hud.gov [VERIFY].",
+      "urgency_level": "HIGH — discrimination complaints have filing deadlines; act quickly",
+      "protected_classes_california": [
+        "Race",
+        "Color",
+        "Religion",
+        "Sex",
+        "Gender",
+        "Gender identity",
+        "Gender expression",
+        "Sexual orientation",
+        "Marital status",
+        "National origin",
+        "Ancestry",
+        "Familial status (including having children)",
+        "Source of income (including Section 8 / housing vouchers)",
+        "Disability (physical or mental)",
+        "Age (for certain housing types)",
+        "Citizenship",
+        "Primary language",
+        "Immigration status"
+      ],
+      "verify_protected_classes": "[VERIFY: Confirm the complete and current list of protected classes under California Government Code 12955 and any 2025-2026 amendments. Source of income and immigration status protections have been subject to legislative activity — confirm current status.]",
+      "where_to_file_complaint": {
+        "state": {
+          "agency": "California Civil Rights Department",
+          "url": "https://calcivilrights.ca.gov",
+          "verify_url": "[VERIFY: Confirm calcivilrights.ca.gov is the correct current URL — this agency was renamed from DFEH and the URL may have changed]"
+        },
+        "federal": {
+          "agency": "U.S. Department of Housing and Urban Development (HUD)",
+          "url": "https://www.hud.gov/program_offices/fair_housing_equal_opp/online-complaint",
+          "verify_url": "[VERIFY: Confirm current HUD online complaint URL]"
+        }
+      },
+      "applies_during": ["notice_period", "after_notice_expires", "during_ud_proceedings"],
+      "verify_items": "[VERIFY: (1) Government Code 12955 — confirm current protected class list in California housing law. (2) Confirm California Civil Rights Department name and URL as of 2026. (3) Confirm whether AB 1482 interacts with discrimination claims. (4) Confirm complaint filing deadlines for FEHA housing claims — typically 1 year but verify.]"
+    }
+  ]
+}

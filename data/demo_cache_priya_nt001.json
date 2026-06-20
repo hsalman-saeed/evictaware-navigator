@@ -1,0 +1,180 @@
+Demo scenario timeline used for the date math below: Priya's notice was taped to her door **Tuesday, June 16,
+2026 at 9: 47 PM**. Under California's 3-day notice computation (the day of service does not count, and weekend/holiday landings extend to the next court day), the 3-day window runs Wednesday 6/17, Thursday 6/18, and closes **Friday, June 19,
+2026** — which is "today" for this demo. That means Priya is looking at the deadline on the very day the judges watch the demo.
+
+### 7D. Complete Expected Output JSON (pre-computed demo cache entry)
+
+```json
+{
+    "bold_statement_card": {
+        "text": "This notice is NOT an order to leave. Your landlord's text about the sheriff is not accurate — only a judge and a court order can ever send the sheriff to your door.",
+        "legal_basis": "California law requires your landlord to win a full court case before any sheriff can remove you. A 3-day notice and a text message have no legal power to remove you from your home by themselves."
+    },
+    "notice_summary": {
+        "notice_type": "3-Day Notice to Pay Rent or Quit",
+        "what_it_means": "Your landlord says you owe $340 in rent. You have until tonight to pay it in full or your landlord can start a court case. A court case is the only way you could ever be removed from your home.",
+        "does_tenant_have_to_leave_now": false,
+        "critical_deadline": {
+            "label": "Last day to pay the $340 or respond before your landlord can file in court",
+            "date": "Friday, June 19, 2026",
+            "days_remaining": 0
+        }
+    },
+    "action_tiers": {
+        "tier_1": {
+            "label": "NEXT 24 HOURS",
+            "color": "red",
+            "urgency_reason": "Today is the last day of your 3-day notice period. What you do in the next few hours decides what happens next.",
+            "actions": [
+                {
+                    "deadline": "**Friday, June 19:**",
+                    "action": "Try to pay the full $340 today, even a few hours before midnight. If you can pay all of it, your landlord generally cannot move forward on this notice.",
+                    "why_it_matters": "Paying the full amount on time is the fastest way to stop this notice completely.",
+                    "how_to_do_it": "Pay however your lease allows — in person, online portal, or certified check. Get a dated receipt every time."
+                },
+                {
+                    "deadline": "**Friday, June 19:**",
+                    "action": "If you cannot pay the full $340 tonight, call Central California Legal Services before they close and explain your deadline is today.",
+                    "why_it_matters": "A legal aid attorney can tell you, today, whether a partial payment or a short delay is possible in your case.",
+                    "how_to_do_it": "Call (559) 570-1200. Say you have a 3-day pay-or-quit notice with a deadline tonight."
+                },
+                {
+                    "deadline": "**Friday, June 19:**",
+                    "action": "Save your landlord's text message about the sheriff exactly as it is. Do not delete it or reply with any promise to move out.",
+                    "why_it_matters": "That message may matter later if your landlord tries to remove you without going through court first.",
+                    "how_to_do_it": "Take a screenshot of the full text thread, including the date and time stamp, and store it somewhere safe."
+                }
+            ],
+            "max_actions": 3
+        },
+        "tier_2": {
+            "label": "BEFORE YOUR NOTICE EXPIRES",
+            "color": "orange",
+            "urgency_reason": "If tonight passes without full payment or an agreement with your landlord, your landlord MAY file an eviction lawsuit in court.",
+            "actions": [
+                {
+                    "deadline": "**If the $340 is not paid by midnight tonight:**",
+                    "action": "Watch your mailbox and door for official court papers, not just another notice from your landlord directly.",
+                    "why_it_matters": "Only official court papers with a case number start the formal eviction lawsuit process — a notice or a text does not.",
+                    "how_to_do_it": "Court papers will include a case number and the name of the court. Keep them in one place."
+                },
+                {
+                    "deadline": "**As soon as possible after tonight:**",
+                    "action": "Ask Central California Legal Services about emergency rental assistance programs that could still help cover the $340.",
+                    "why_it_matters": "You MAY qualify for help even after the 3-day window closes, depending on the program.",
+                    "how_to_do_it": "Mention the exact amount owed, $340, and that you already received a 3-day notice."
+                },
+                {
+                    "deadline": "**Ongoing:**",
+                    "action": "Keep a written note of every conversation with your landlord from this point forward, including dates.",
+                    "why_it_matters": "A clear written record protects you if there is ever a disagreement about what was said or paid.",
+                    "how_to_do_it": "A notes app or a notebook is enough. Include the date, time, and what was said."
+                }
+            ],
+            "max_actions": 3
+        },
+        "tier_3": {
+            "label": "IF COURT PAPERS ARE FILED",
+            "color": "yellow",
+            "urgency_reason": "EvictAware cannot predict whether your landlord will file court papers. Here is what the process looks like if it happens, so you are not caught off guard.",
+            "actions": [
+                {
+                    "deadline": "**Within days of being handed court papers:**",
+                    "action": "You generally have a short, specific number of days to file a written response with the court. Call legal aid immediately to confirm the exact deadline on your papers.",
+                    "why_it_matters": "Missing this deadline MAY result in an automatic ruling against you without a hearing.",
+                    "how_to_do_it": "Bring or read the court papers to Central California Legal Services right away — the deadline is on the papers themselves."
+                },
+                {
+                    "deadline": "**Before your response deadline:**",
+                    "action": "Ask legal aid or the court's self-help center about the official response form for an eviction lawsuit.",
+                    "why_it_matters": "Filing a response on time keeps your case in front of a judge instead of being decided automatically.",
+                    "how_to_do_it": "The Fresno County Superior Court Self-Help Center can help you complete the form even without a lawyer."
+                },
+                {
+                    "deadline": "**Before your court date, if one is scheduled:**",
+                    "action": "Gather your rent payment records, your landlord's messages, and any receipts in one folder.",
+                    "why_it_matters": "A judge will consider the facts both sides present. EvictAware cannot predict what a judge will decide.",
+                    "how_to_do_it": "Bring this folder to legal aid and to court. Include the screenshot of the sheriff text from Tier 1."
+                }
+            ],
+            "max_actions": 3
+        }
+    },
+    "landlord_cannot_do": {
+        "module_title": "What Your Landlord CANNOT Do Right Now",
+        "items": [
+            {
+                "action": "Have the sheriff remove you without a court order",
+                "plain_language": "Your landlord's text said the sheriff will come Friday. That is not accurate. A sheriff can only remove a tenant after a landlord wins a full court case and a judge issues a specific order.",
+                "legal_basis": "California Code of Civil Procedure Section 715.010 — a court order called a writ of possession is required before any sheriff can remove a tenant.",
+                "if_this_happens": "If anyone shows up claiming to remove you without paperwork from a court, call your local police non-emergency line and call legal aid right away."
+            },
+            {
+                "action": "Change your locks or block you from entering your home",
+                "plain_language": "Your landlord cannot lock you out, even if you owe rent, without going through the full court process first.",
+                "legal_basis": "California Civil Code Section 789.3 prohibits this kind of self-help eviction.",
+                "if_this_happens": "Call 211 immediately and call legal aid the next business day. This is treated as a serious legal violation."
+            },
+            {
+                "action": "Shut off your water, power, or gas to pressure you to leave",
+                "plain_language": "Utility shutoffs used to force a tenant out are not allowed, regardless of unpaid rent.",
+                "legal_basis": "California Civil Code Section 789.3.",
+                "if_this_happens": "Document the shutoff with photos and contact legal aid right away."
+            },
+            {
+                "action": "Remove your belongings from the unit",
+                "plain_language": "Your landlord cannot enter and remove your or your daughter's things to force you out.",
+                "legal_basis": "California Civil Code Section 789.3.",
+                "if_this_happens": "Take photos of anything moved or missing and contact legal aid."
+            },
+            {
+                "action": "Threaten or harass you to make you leave faster",
+                "plain_language": "Repeated threatening messages, like the sheriff text you received, MAY cross into harassment depending on the full pattern of conduct.",
+                "legal_basis": "California Civil Code Section 1940.2.",
+                "if_this_happens": "Save every message and mention this pattern when you call legal aid."
+            },
+            {
+                "action": "Punish you for asserting your legal rights",
+                "plain_language": "Your landlord cannot retaliate against you, for example by raising rent or filing eviction, simply because you contacted legal aid or asked about your rights.",
+                "legal_basis": "California Civil Code Section 1942.5.",
+                "if_this_happens": "Tell legal aid the exact timeline of events if you believe this is happening."
+            },
+            {
+                "action": "Enter your home without proper notice",
+                "plain_language": "Outside of an emergency, your landlord generally must give you written notice before entering your home.",
+                "legal_basis": "California Civil Code Section 1954.",
+                "if_this_happens": "Note the date and time of any unannounced entry and mention it to legal aid."
+            }
+        ],
+        "most_relevant_to_user_situation": "Your landlord's text said the sheriff will come Friday and remove you. That is not how California eviction law works — only a court order can authorize the sheriff to remove anyone, and that takes a full court process, not a single text message."
+    },
+    "legal_aid_connector": {
+        "intro_text": "You do not have to figure this out alone tonight — Fresno County has a free legal aid line that can look at your exact notice.",
+        "organization_name": "Central California Legal Services",
+        "phone_number": "(559) 570-1200",
+        "hours": "Monday through Friday, 9:00 AM to 12:00 PM and 1:00 PM to 2:30 PM",
+        "intake_link": "https://centralcallegal.org/get-help/",
+        "languages": [
+            "English",
+            "Spanish"
+        ],
+        "what_to_say_when_you_call": "Say: 'I have a 3-Day Notice to Pay Rent or Quit. I owe $340 and my deadline is today, Friday, June 19. My landlord also texted me that the sheriff will come Friday to remove me, and I want to know if that's accurate and what my options are.'"
+    },
+    "rental_assistance": {
+        "applicable": true,
+        "resources": [
+            {
+                "program_name": "Fresno County Emergency Rental Assistance referral (via Central California Legal Services)",
+                "description": "Legal aid can connect you to current local emergency rental assistance programs that may cover what you owe.",
+                "how_to_apply": "Ask about this directly when you call legal aid — program availability changes, so they will have the most current information.",
+                "apply_url": "https://centralcallegal.org/get-help/"
+            }
+        ],
+        "important_note": "You MAY qualify for emergency rental assistance, but program availability and eligibility change. If you receive assistance that covers the full $340 you owe, the eviction process for this notice MAY stop — confirm this with your landlord in writing once payment is made."
+    },
+    "disclaimer": "EvictAware provides legal information only — not legal advice. This does not guarantee any outcome. Laws change; this may not reflect the most current California law. Always confirm your rights with a licensed attorney or legal aid organization before taking action. Call 211 or visit lawhelp.org/ca to find free legal help in your county.",
+    "stage": "action_plan",
+    "notice_type_id": "NT001"
+}
+```
+
