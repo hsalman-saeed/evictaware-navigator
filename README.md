@@ -149,7 +149,7 @@ If validation fails, the app generates a specific re-prompt instruction stating 
 ## 📁 Codebase Directory Structure
 
 ```
-c:\Users\Hafiz Salman Saeed\Desktop\USAII Hackathon\
+..\USAII Hackathon\
 ├── .env                              # Local environment variables (API keys)
 ├── .gitignore                        # Git configuration
 ├── requirements.txt                  # Python dependencies
